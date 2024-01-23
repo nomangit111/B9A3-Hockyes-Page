@@ -1,19 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B9A3-Hockeys-Landing-Page</title>
-</head>
-<body>
-    <header>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!--end-->
+    <style>
+        .font-family {
+            font-family: 'Manrope', sans-serif;
+            font-family: 'Manrope', sans-serif;
+        }
 
+        .container {
+            max-width: 1170px;
+            width: 98%;
+            
+            
+        }
+
+        #slide1 {
+            width: 100%;
+            height: 550px;
+            background: url("Images/1.png"), lightgray 0px 0px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 16px;
+        }
+
+        #slide2 {
+            width: 100%;
+            height: 550px;
+            background: url("Images/2.png"), lightgray 0px 0px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 12px;
+        }
+
+        #slide3 {
+            width: 100%;
+            height: 550px;
+            background: url("Images/3.png"), lightgray 0px 0px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 12px;
+        }
+
+        #slide4 {
+            width: 100%;
+            height: 550px;
+            background: url("Images/4.png"), lightgray 0px 0px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 12px;
+        }
+
+        .junior {
+
+
+            border-radius: 16px;
+            background: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url("Images/2.png"), rgba(19, 19, 24, 0.50);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .Teenager {
+            width: 573px;
+            height: 383px;
+            border-radius: 16px;
+            background: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url("Images/3.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .Professional-Program {
+            height: 450px;
+
+            margin: auto;
+            border-radius: 16px;
+            border-radius: 16px;
+            background: rgba(19, 19, 24, 0.50);
+            background-image: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url("Images/4.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+    </style>
+</head>
+
+<body class="font-family">
+    <header>
+        <div class="container m-auto">
+            <nav class="py-8">
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] px-11 shadow  rounded-box w-52">
+
+                                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Home</a></li>
+                                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">About</a></li>
+                                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Pages</a></li>
+                                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Blog</a></li>
+                                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Contact</a></li>
+                            </ul>
+                        </div>
+                        <a class="btn btn-ghost text-3xl font-bold">Hockey’s</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-11">
+                            <li><a class="text-base text-[#424247] hover:text-[#FF4240] ">Home</a></li>
+                            <li><a class="text-base text-[#424247]  hover:text-[#FF4240]">About</a></li>
+                            <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Pages</a></li>
+                            <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Blog</a></li>
+                            <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <a class="btn px-6 text-[#FFF] hover:text-[#FF4240] bg-[#FF4240]">Get Ticket</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <section class="carosel-section">
+            <div class="container mx-auto">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
+                            <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
+                            <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">Dit amet consectetur.
+                                Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                                proin. </p>
+                        </div>
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
+                            <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
+                            <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">Dit amet consectetur.
+                                Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                                proin. </p>
+                        </div>
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
+                            <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
+                            <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">Dit amet consectetur.
+                                Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                                proin. </p>
+                        </div>
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
+                            <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
+                            <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">Dit amet consectetur.
+                                Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
+                                proin. </p>
+                        </div>
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
+        <section class="clup-section py-24">
+            <div class="container mx-auto pb-8">
+                <div class="section-title-part py-8">
+                    <h1 class="text-center text-[ #131318] font-extrabold text-4xl">Program Sections</h1>
+                    <p class="w-[606px] text-[#13131899] mx-auto text-center text-base py-6">Dit amet consectetur.
+                        Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.
+                    </p>
+                </div>
+
+                <!--progress part-->
+                <div class="flex lg:flex-row  pt-8 flex-col items-center  justify-between ">
+
+                    <div class="block justify-center items-center mx-auto">
+                        <div class="radial-progress relative top-2 left-[35%] items-center justify-center text-[#FF4240]  w-[120px] h-[120px]"
+                            style="--value:87;" role="progressbar">87%</div>
+                        <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Prayer Facility</h3>
+                        <p class="text-base text-center pt-4 text-[#13131899]">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
+                    </div>
+                    <div>
+                        <div class="radial-progress relative top-2 left-[35%]  text-[#49D293]   w-[120px] h-[120px]"
+                            style="--value:95;" role="progressbar">95%</div>
+                        <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Experienced Coach</h3>
+                        <p class="text-base text-center pt-4 text-[#13131899]">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
+                    </div>
+                    <div>
+                        <div class="radial-progress relative top-2 left-[35%]  text-[#FFB546]  w-[120px] h-[120px]"
+                            style="--value:90;" role="progressbar">90%</div>
+                        <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Senior Player</h3>
+                        <p class="text-base text-center pt-4 text-[#13131899]">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
+
+                    </div>
+                    <div>
+                        <div class="radial-progress  relative top-2 left-[35%]  text-[#4C8DF1]  w-[120px] h-[120px]"
+                            style="--value:80;" role="progressbar">80%</div>
+                        <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Training Ground</h3>
+                        <p class="text-base text-center pt-4 text-[#13131899]">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="program-section">
+            <div class="container">
+                <div class="section-title-part py-8">
+                    <h1 class="text-center text-[ #131318] font-extrabold text-4xl">Program Sections</h1>
+                    <p class="w-[606px] text-[#13131899] mx-auto text-center text-base py-6">Dit amet consectetur.
+                        Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.
+                    </p>
+                </div>
+
+                <!--Program Sections-->
+
+
+
+
+
+
+            </div>
+            <div class="container m-auto">
+                <div
+                    class="program-part w-full py-8 grid sm:grid-flow-col grid-row items-center gap-14 justify-center mx-auto">
+                    <div class="junior bg-[#13131880] pt-24 pl-8 w-[573px] h-[338px] ">
+                        <h3 class="text-3xl text-left pt-4 text-[#FFF] font-bold">Junior Program Program</h3>
+                        <p class="text-base w-[495px]  text-left pt-4 text-[#FFF]">Dolor sit amet consectetur. Ut urna
+                            diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        <a href="" class="px-6 relative top-8 mt-6 py-4 rounded-lg text-[#FFF]  bg-[#FF4240]"> Register
+                            Now!</a>
+
+                    </div>
+                    <div class="Teenager bg-[#13131880] pt-24 pl-8 w-[573px] h-[338px] ">
+                        <h3 class="text-3xl text-left pt-4 text-[#FFF] font-bold">Teenager Program</h3>
+                        <p class="text-base w-[495px]  text-left pt-4 text-[#FFF]">Dolor sit amet consectetur. Ut urna
+                            diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        <a href="" class="px-6 relative top-8 mt-6 py-4 rounded-lg text-[#FFF]  bg-[#FF4240]"> Register
+                            Now!</a>
+
+                    </div>
+                </div>
+                <div class="relative Professional-Program mb-8">
+
+                    <div class="absolute left-10 bottom-20">
+                        <h3 class="text-3xl text-left pt-4 text-[#FFF] font-bold">Professional Program</h3>
+                        <p class="text-base w-[495px]  text-left pt-4 text-[#FFF]">Dolor sit amet consectetur. Ut urna
+                            diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                        <a href="" class="px-6 relative top-10  py-4 rounded-lg text-[#FFF]  bg-[#FF4240]"> Register
+                            Now!</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
     </main>
     <footer>
-        
+
     </footer>
+
 </body>
+
 </html>
