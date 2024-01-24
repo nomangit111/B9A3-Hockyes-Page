@@ -2,314 +2,682 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!--font family-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <!--end-->
-    <style>
-        .font-family {
-            font-family: 'Manrope', sans-serif;
-            font-family: 'Manrope', sans-serif;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B9A3-Hockeys-Landing-Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <style>
+    .font-family {
+      font-family: 'Manrope', sans-serif;
+      font-family: 'Manrope', sans-serif;
+    }
 
-        .container {
-            max-width: 1170px;
-            width: 98%;
-            
-            
-        }
+    .container {
+      max-width: 1070px;
+      width: 80%;
+    }
 
-        #slide1 {
-            width: 100%;
-            height: 550px;
-            background: url("Images/1.png"), lightgray 0px 0px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-radius: 16px;
-        }
+    #slide1 {
+      width: 100%;
+      height: 550px;
+      background: url("Images/1.png"), lightgray 0px 0px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 16px;
+    }
 
-        #slide2 {
-            width: 100%;
-            height: 550px;
-            background: url("Images/2.png"), lightgray 0px 0px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-radius: 12px;
-        }
+    #slide2 {
+      width: 100%;
+      height: 550px;
+      background: url("Images/2.png"), lightgray 0px 0px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 12px;
+    }
 
-        #slide3 {
-            width: 100%;
-            height: 550px;
-            background: url("Images/3.png"), lightgray 0px 0px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-radius: 12px;
-        }
+    #slide3 {
+      width: 100%;
+      height: 550px;
+      background: url("Images/3.png"), lightgray 0px 0px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 12px;
+    }
 
-        #slide4 {
-            width: 100%;
-            height: 550px;
-            background: url("Images/4.png"), lightgray 0px 0px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            border-radius: 12px;
-        }
+    #slide4 {
+      width: 100%;
+      height: 550px;
+      background: url("Images/4.png"), lightgray 0px 0px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 12px;
+    }
 
-        .junior {
+    .junior {
+      border-radius: 16px;
+      background: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url("Images/2.png"), rgba(19, 19, 24, 0.50);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
 
+    .Teenager {
+      width: 573px;
+      height: 383px;
+      border-radius: 16px;
+      background: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url("Images/3.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
 
-            border-radius: 16px;
-            background: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url("Images/2.png"), rgba(19, 19, 24, 0.50);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
+    .Professional-Program {
+      height: 450px;
 
-        .Teenager {
-            width: 573px;
-            height: 383px;
-            border-radius: 16px;
-            background: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url("Images/3.png");
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-
-        .Professional-Program {
-            height: 450px;
-
-            margin: auto;
-            border-radius: 16px;
-            border-radius: 16px;
-            background: rgba(19, 19, 24, 0.50);
-            background-image: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url("Images/4.png");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-
-        }
-    </style>
+      margin: auto;
+      border-radius: 16px;
+      border-radius: 16px;
+      background: rgba(19, 19, 24, 0.50);
+      background-image: linear-gradient(rgba(19, 19, 24, 0.50), rgba(19, 19, 24, 0.50)), url("Images/4.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  </style>
 </head>
 
 <body class="font-family">
-    <header>
-        <div class="container m-auto">
-            <nav class="py-8">
-                <div class="navbar bg-base-100">
-                    <div class="navbar-start">
-                        <div class="dropdown">
-                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                    stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M4 6h16M4 12h8m-8 6h16" />
-                                </svg>
-                            </div>
-                            <ul tabindex="0"
-                                class="menu menu-sm dropdown-content mt-3 z-[1] px-11 shadow  rounded-box w-52">
+  <header>
+    <div class="container m-auto">
+      <nav class="py-8">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] px-11 shadow  rounded-box w-52">
 
-                                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Home</a></li>
-                                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">About</a></li>
-                                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Pages</a></li>
-                                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Blog</a></li>
-                                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Contact</a></li>
-                            </ul>
-                        </div>
-                        <a class="btn btn-ghost text-3xl font-bold">Hockey’s</a>
-                    </div>
-                    <div class="navbar-center hidden lg:flex">
-                        <ul class="menu menu-horizontal px-11">
-                            <li><a class="text-base text-[#424247] hover:text-[#FF4240] ">Home</a></li>
-                            <li><a class="text-base text-[#424247]  hover:text-[#FF4240]">About</a></li>
-                            <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Pages</a></li>
-                            <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Blog</a></li>
-                            <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="navbar-end">
-                        <a class="btn px-6 text-[#FFF] hover:text-[#FF4240] bg-[#FF4240]">Get Ticket</a>
-                    </div>
-                </div>
-            </nav>
+                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Home</a></li>
+                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">About</a></li>
+                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Pages</a></li>
+                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Blog</a></li>
+                <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-3xl font-bold">Hockey’s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-11">
+              <li><a class="text-base text-[#424247] hover:text-[#FF4240] ">Home</a></li>
+              <li><a class="text-base text-[#424247]  hover:text-[#FF4240]">About</a></li>
+              <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Pages</a></li>
+              <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Blog</a></li>
+              <li><a class="text-base text-[#424247] hover:text-[#FF4240]">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end flex space-x-3">
+            <img src="Images/Frame (2).png" alt="">
+            <a class="btn px-6 text-[#FFF] hover:text-[#FF4240] bg-[#FF4240]">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section class="carosel-section">
+      <div class="container mx-auto">
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
+              <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
+              <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">
+                This is a series of fun football biographies for kids aged 7-12. It tells the stories of various
+                football heroes. </p>
+            </div>
+
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
+              <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
+              <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">This is a series of fun football biographies
+                for kids aged 7-12. It tells the stories of various football heroes.</p>
+            </div>
+
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
+              <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
+              <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">This is a series of fun football biographies
+                for kids aged 7-12. It tells the stories of various football heroes. </p>
+            </div>
+
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
+              <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
+              <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">This is a series of fun football biographies
+                for kids aged 7-12. It tells the stories of various football heroes. </p>
+            </div>
+
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="clup-section py-24">
+      <div class="container mx-auto pb-8">
+        <div class="section-title-part py-8">
+          <h1 class="text-center text-[ #131318] font-extrabold text-4xl">Professional Hockeys Club</h1>
+          <p class="w-[606px] text-[#13131899] mx-auto text-center text-base py-6">Professional hockey clubs are spread
+            across the globe and participate in various leagues. Here are some of the prominent ones:
+          </p>
         </div>
 
-        <section class="carosel-section">
-            <div class="container mx-auto">
-                <div class="carousel w-full">
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
-                            <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
-                            <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">Dit amet consectetur.
-                                Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
-                                proin. </p>
-                        </div>
 
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide4" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide2" class="carousel-item relative w-full">
-                        <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
-                            <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
-                            <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">Dit amet consectetur.
-                                Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
-                                proin. </p>
-                        </div>
+        <div class="flex lg:flex-row  pt-8 flex-col items-center  justify-between ">
 
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
-                            <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
-                            <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">Dit amet consectetur.
-                                Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
-                                proin. </p>
-                        </div>
+          <div class="block justify-center items-center mx-auto">
+            <div
+              class="radial-progress relative top-2 left-[35%] items-center justify-center text-[#FF4240]  w-[120px] h-[120px]"
+              style="--value:87;" role="progressbar">87%</div>
+            <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Prayer Facility</h3>
+            <p class="text-base text-center pt-4 text-[#13131899]">A prayer facility is a designated space within a
+              private.</p>
+          </div>
+          <div>
+            <div class="radial-progress relative top-2 left-[35%]  text-[#49D293]   w-[120px] h-[120px]"
+              style="--value:95;" role="progressbar">95%</div>
+            <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Experienced Coach</h3>
+            <p class="text-base text-center pt-4 text-[#13131899]">An experienced coach is a professional who has a
+              wealth.</p>
+          </div>
+          <div>
+            <div class="radial-progress relative top-2 left-[35%]  text-[#FFB546]  w-[120px] h-[120px]"
+              style="--value:90;" role="progressbar">90%</div>
+            <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Senior Player</h3>
+            <p class="text-base text-center pt-4 text-[#13131899]">The term “Senior Player” can have different meanings.
+            </p>
 
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide4" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide4" class="carousel-item relative w-full">
-                        <div class="  absolute bottom-8 right-8 p-8 rounded-lg bg-[#131318] ">
-                            <h4 class="text-2xl text-[#FFF]">Meet all the heroes from the field</h4>
-                            <p class="w-[512px] pt-4  text-base   text-[#FFF] text-left">Dit amet consectetur.
-                                Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
-                                proin. </p>
-                        </div>
+          </div>
+          <div>
+            <div class="radial-progress  relative top-2 left-[35%]  text-[#4C8DF1]  w-[120px] h-[120px]"
+              style="--value:80;" role="progressbar">80%</div>
+            <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Training Ground</h3>
+            <p class="text-base text-center pt-4 text-[#13131899]">A training ground is an area where professional
+              teams.
+            </p>
+          </div>
+        </div>
 
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide3" class="btn btn-circle">❮</a>
-                            <a href="#slide1" class="btn btn-circle">❯</a>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </section>
+    <section class="program-section">
+      <div class="container">
+        <div class="section-title-part py-8">
+          <h1 class="text-center text-[ #131318] font-extrabold text-4xl">Program Sections</h1>
+          <p class="w-[606px] text-[#13131899] mx-auto text-center text-base py-6">A training ground is an area where
+            professional teams prepare for matches, with activities primarily concentrating on skills and fitness
+          </p>
+        </div>
+
+
+
+      </div>
+      <div class="container m-auto">
+        <div class="program-part w-full py-8 grid sm:grid-flow-col grid-row items-center gap-14 justify-center mx-auto">
+          <div class="junior bg-[#13131880] pt-24 pl-8 w-[573px] h-[338px] ">
+            <h3 class="text-3xl text-left pt-4 text-[#FFF] font-bold">Junior Program Program</h3>
+            <p class="text-base w-[495px]  text-left pt-4 text-[#FFF]">There are several Junior Programs available that
+              provide young professionals with the opportunity to gain hands-on experience in various</p>
+            <a href="" class="px-6 relative top-8 mt-6 py-4 rounded-lg text-[#FFF]  bg-[#FF4240]"> Register
+              Now!</a>
+
+          </div>
+          <div class="Teenager bg-[#13131880] pt-24 pl-8 w-[573px] h-[338px] ">
+            <h3 class="text-3xl text-left pt-4 text-[#FFF] font-bold">Teenager Program</h3>
+            <p class="text-base w-[495px]  text-left pt-4 text-[#FFF]">There are several programs available for
+              teenagers that provide opportunities to gain experience and build skills in various fields:</p>
+            <a href="" class="px-6 relative top-8 mt-6 py-4 rounded-lg text-[#FFF]  bg-[#FF4240]"> Register
+              Now!</a>
+
+          </div>
+        </div>
+        <div class="relative Professional-Program mb-8">
+
+          <div class="absolute left-10 bottom-20">
+            <h3 class="text-3xl text-left pt-4 text-[#FFF] font-bold">Professional Program</h3>
+            <p class="text-base w-[495px]  text-left pt-4 text-[#FFF]">A professional program is a course of study that
+              prepares students for careers in specific fields. They are often designed to provide practical skills.
+            </p>
+            <a href="" class="px-6 relative top-10  py-4 rounded-lg text-[#FFF]  bg-[#FF4240]"> Register
+              Now!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="product-sections">
+      <div class="container m-auto">
+        <div class="section-title-part py-8">
+          <h1 class="text-center text-[ #131318] font-extrabold text-4xl">Our New Products</h1>
+          <p class="w-[606px] text-[#13131899] mx-auto text-center text-base py-6">They are the
+            world’s largest online football store for football boots, football shirts & kits, football equipment,
+            goalkeeper gloves, base layer & more </p>
+        </div>
+
+        <div class="w-full mx-auto grid gap-5 lg:grid-cols-2">
+          <div class="flex items-center gap-5 justify-center">
+            <div>
+              <img src="Images/5.png" alt="">
             </div>
-        </section>
-    </header>
-    <main>
-        <section class="clup-section py-24">
-            <div class="container mx-auto pb-8">
-                <div class="section-title-part py-8">
-                    <h1 class="text-center text-[ #131318] font-extrabold text-4xl">Program Sections</h1>
-                    <p class="w-[606px] text-[#13131899] mx-auto text-center text-base py-6">Dit amet consectetur.
-                        Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.
-                    </p>
+            <div>
+              <div class="flex space-x-2 ">
+                <img src="Images/Vector.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame.png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>200</p>
+              </div>
+              <h5 class="text-2xl font-bold mt-2">World Cup Flags Football</h5>
+              <p class="mt-2">They have a wide range of soccer cleats, clothing.
+              </p>
+              <div class=" flex space-x-4">
+                <span class="text-[#FF4240] font-semibold ">Price - $22.00</span>
+                <div class="flex space-x-2">
+                  <img src="Images/Frame (3).png" alt="">
+                  <span>Delivery Fee : Free</span>
                 </div>
-
-                <!--progress part-->
-                <div class="flex lg:flex-row  pt-8 flex-col items-center  justify-between ">
-
-                    <div class="block justify-center items-center mx-auto">
-                        <div class="radial-progress relative top-2 left-[35%] items-center justify-center text-[#FF4240]  w-[120px] h-[120px]"
-                            style="--value:87;" role="progressbar">87%</div>
-                        <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Prayer Facility</h3>
-                        <p class="text-base text-center pt-4 text-[#13131899]">Amet consectetur. Condimentum dignissim
-                            adipiscing .</p>
-                    </div>
-                    <div>
-                        <div class="radial-progress relative top-2 left-[35%]  text-[#49D293]   w-[120px] h-[120px]"
-                            style="--value:95;" role="progressbar">95%</div>
-                        <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Experienced Coach</h3>
-                        <p class="text-base text-center pt-4 text-[#13131899]">Amet consectetur. Condimentum dignissim
-                            adipiscing .</p>
-                    </div>
-                    <div>
-                        <div class="radial-progress relative top-2 left-[35%]  text-[#FFB546]  w-[120px] h-[120px]"
-                            style="--value:90;" role="progressbar">90%</div>
-                        <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Senior Player</h3>
-                        <p class="text-base text-center pt-4 text-[#13131899]">Amet consectetur. Condimentum dignissim
-                            adipiscing .</p>
-
-                    </div>
-                    <div>
-                        <div class="radial-progress  relative top-2 left-[35%]  text-[#4C8DF1]  w-[120px] h-[120px]"
-                            style="--value:80;" role="progressbar">80%</div>
-                        <h3 class="text-lg text-center pt-4 text-[#131318] font-bold">Training Ground</h3>
-                        <p class="text-base text-center pt-4 text-[#13131899]">Amet consectetur. Condimentum dignissim
-                            adipiscing .</p>
-                    </div>
-                </div>
-
+              </div>
             </div>
-        </section>
-        <section class="program-section">
-            <div class="container">
-                <div class="section-title-part py-8">
-                    <h1 class="text-center text-[ #131318] font-extrabold text-4xl">Program Sections</h1>
-                    <p class="w-[606px] text-[#13131899] mx-auto text-center text-base py-6">Dit amet consectetur.
-                        Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.
-                    </p>
-                </div>
 
-                <!--Program Sections-->
-
-
-
-
-
-
+          </div>
+          <div class="flex items-center gap-5 justify-center">
+            <div>
+              <img src="Images/6.png" alt="">
             </div>
-            <div class="container m-auto">
-                <div
-                    class="program-part w-full py-8 grid sm:grid-flow-col grid-row items-center gap-14 justify-center mx-auto">
-                    <div class="junior bg-[#13131880] pt-24 pl-8 w-[573px] h-[338px] ">
-                        <h3 class="text-3xl text-left pt-4 text-[#FFF] font-bold">Junior Program Program</h3>
-                        <p class="text-base w-[495px]  text-left pt-4 text-[#FFF]">Dolor sit amet consectetur. Ut urna
-                            diam quis sagittis. Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                            congue sed et in.</p>
-                        <a href="" class="px-6 relative top-8 mt-6 py-4 rounded-lg text-[#FFF]  bg-[#FF4240]"> Register
-                            Now!</a>
-
-                    </div>
-                    <div class="Teenager bg-[#13131880] pt-24 pl-8 w-[573px] h-[338px] ">
-                        <h3 class="text-3xl text-left pt-4 text-[#FFF] font-bold">Teenager Program</h3>
-                        <p class="text-base w-[495px]  text-left pt-4 text-[#FFF]">Dolor sit amet consectetur. Ut urna
-                            diam quis sagittis. Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                            congue sed et in.</p>
-                        <a href="" class="px-6 relative top-8 mt-6 py-4 rounded-lg text-[#FFF]  bg-[#FF4240]"> Register
-                            Now!</a>
-
-                    </div>
+            <div>
+              <div class="flex space-x-2 ">
+                <img src="Images/Vector.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame.png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>200</p>
+              </div>
+              <h5 class="text-2xl font-bold mt-2">World Cup Flags Football</h5>
+              <p class="mt-2">They have a wide range of soccer cleats, clothing.</p>
+              <div class=" flex space-x-4">
+                <span class="text-[#FF4240] font-semibold ">Price - $22.00</span>
+                <div class="flex space-x-2">
+                  <img src="Images/Frame (3).png" alt="">
+                  <span>Delivery Fee : Free</span>
                 </div>
-                <div class="relative Professional-Program mb-8">
-
-                    <div class="absolute left-10 bottom-20">
-                        <h3 class="text-3xl text-left pt-4 text-[#FFF] font-bold">Professional Program</h3>
-                        <p class="text-base w-[495px]  text-left pt-4 text-[#FFF]">Dolor sit amet consectetur. Ut urna
-                            diam quis sagittis. Elit elit
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
-                            congue sed et in.</p>
-                        <a href="" class="px-6 relative top-10  py-4 rounded-lg text-[#FFF]  bg-[#FF4240]"> Register
-                            Now!</a>
-                    </div>
-                </div>
-
+              </div>
             </div>
-        </section>
 
-    </main>
-    <footer>
+          </div>
+          <div class="flex items-center gap-5 justify-center">
+            <div>
+              <img src="Images/7.png" alt="">
+            </div>
+            <div>
+              <div class="flex space-x-2 mt-2">
+                <img src="Images/Vector.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame.png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>200</p>
+              </div>
+              <h5 class="text-2xl font-bold mt-2">Cap For Hockeys</h5>
+              <p class="mt-2">They have a wide range of soccer cleats, clothing. </p>
+              <div class=" flex space-x-4">
+                <span class="text-[#FF4240] font-semibold ">Price - $22.00</span>
+                <div class="flex space-x-2">
+                  <img src="Images/Frame (3).png" alt="">
+                  <span>Delivery Fee : Free</span>
+                </div>
+              </div>
+            </div>
 
-    </footer>
+          </div>
+          <div class="flex items-center gap-5 justify-center">
+            <div>
+              <img src="Images/8.png" alt="">
+            </div>
+            <div>
+              <div class="flex space-x-2 mt-2">
+                <img src="Images/Vector.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame.png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>200</p>
+              </div>
+              <h5 class="text-2xl font-bold mt-2">World Cup Flags Football</h5>
+              <p class="mt-2">They have a wide range of soccer cleats, clothing.</p>
+              <div class=" flex space-x-4">
+                <span class="text-[#FF4240] font-semibold ">Price - $22.00</span>
+                <div class="flex space-x-2">
+                  <img src="Images/Frame (3).png" alt="">
+                  <span>Delivery Fee : Free</span>
+                </div>
+              </div>
+            </div>
 
+          </div>
+          <div class="flex items-center gap-5 justify-center">
+            <div>
+              <img src="Images/9.png" alt="">
+            </div>
+            <div>
+              <div class="flex space-x-2 mt-2">
+                <img src="Images/Vector.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame.png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>200</p>
+              </div>
+              <h5 class="text-2xl font-bold mt-2">World Cup Flags Football</h5>
+              <p class="mt-2">They have a wide range of soccer cleats, clothing. </p>
+              <div class=" flex space-x-4">
+                <span class="text-[#FF4240] font-semibold ">Price - $22.00</span>
+                <div class="flex space-x-2">
+                  <img src="Images/Frame (3).png" alt="">
+                  <span>Delivery Fee : Free</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="flex items-center gap-5 justify-center">
+            <div>
+              <img src="Images/10.png" alt="">
+            </div>
+            <div>
+              <div class="flex space-x-2 mt-2">
+                <img src="Images/Vector.png" alt="">
+                <p>5.0</p>
+                <img src="Images/Frame.png" alt="">
+                <p>20</p>
+                <img src="Images/Frame (1).png" alt="">
+                <p>200</p>
+              </div>
+              <h5 class="text-2xl font-bold mt-2">World Cup Flags Football</h5>
+              <p class="mt-2">They have a wide range of soccer cleats, clothing. </p>
+              <div class=" flex space-x-4">
+                <span class="text-[#FF4240] font-semibold ">Price - $22.00</span>
+                <div class="flex space-x-2">
+                  <img src="Images/Frame (3).png" alt="">
+                  <span>Delivery Fee : Free</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product-sections">
+      <div class="container mx-auto my-16 ">
+        <div class="section-title-part py-8">
+          <h1 class="text-center text-[ #131318] font-extrabold text-4xl">Clients Question</h1>
+          <p class="w-[606px] text-[#13131899] mx-auto text-center text-base py-6">These questions should help you gain
+            a deeper understanding of your client’s needs and expectations. </p>
+        </div>
+        <div class="hero min-h-screen ">
+          <div class="hero-content flex-col lg:flex-row gap-10">
+            <img src="Images/11.png" class="max-w-sm mb-3 rounded-lg w-[441px] h-[473px] mx-auto items-center " />
+            <div>
+              <div class="Our-Equipment pl-4">
+                <h3 class="text-xl text-[#131318] pb-4 font-bold">Our Equipment</h3>
+                <p class="text-base text-[#13131899] pb-4 w-[518px]">These questions should help you gain
+                  a deeper understanding of your client’s needs and expectations.</p>
+              </div>
+              <div class="collapse collapse-plus ">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title  text-[#131318] text-xl font-medium">
+                  Hockey Training
+                </div>
+                <div class="collapse-content">
+                  <p class="text-base text-[#13131899] pb-6 w-[518px]">These questions should help you gain
+                    a deeper understanding of your client’s needs and expectations.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus ">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title  text-[#131318] text-xl font-medium">
+                  Private Lessons
+                </div>
+                <div class="collapse-content">
+                  <p class="text-base text-[#13131899] pb-6 w-[518px]">These questions should help you gain
+                    a deeper understanding of your client’s needs and expectations.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus ">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-[#131318]  text-xl font-medium">
+                  Ski Touring
+                </div>
+                <div class="collapse-content">
+                  <p class="text-base text-[#13131899] pb-6 w-[518px]">These questions should help you gain
+                    a deeper understanding of your client’s needs and expectations.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus ">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-[#131318] text-xl font-medium">
+                  Booking
+                </div>
+                <div class="collapse-content">
+                  <p class="text-base text-[#13131899] pb-6 w-[518px]">These questions should help you gain
+                    a deeper understanding of your client’s needs and expectations.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus ">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-[#131318]  text-xl font-medium">
+                  Pricings
+                </div>
+                <div class="collapse-content">
+                  <p class="text-base text-[#13131899] pb-6 w-[518px]">These questions should help you gain
+                    a deeper understanding of your client’s needs and expectations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="touch-section">
+      <div class="container  m-auto">
+        <div class="section-title-part py-8">
+          <h1 class="text-center text-[ #131318] font-extrabold text-4xl ">Get In Touch</h1>
+          <p class="w-[606px] text-[#13131899] mx-auto text-center text-base py-6">Dit amet consectetur. Condimentum
+            dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="border-red-400	 mx-auto grid lg:grid-cols-2">
+          <div class="text-center lg:pl-40 pl-16 lg:text-left  ">
+            <div class="w-96 h-56 bg-[#BCED6D1A] p-8  rounded-2xl">
+              <img class="w-12 h-12" src="Images/Group 1171275317.png" alt="">
+              <h4 class="text-base pt-6 font-normal text-[#13131866]">Phone Number :
+              </h4>
+              <h4 class="pt-4 text-[#131318] font-bold">(+62) 123-321-543</h4>
+            </div>
+            <div class="w-96 h-56 bg-cyan-50 mt-6 p-8 rounded-2xl ">
+              <img class="w-12 h-12" src="Images/Group 1171275318.png" alt="">
+              <h4 class="text-base pt-6 font-normal text-[#13131866]">Location :
+              </h4>
+              <h4 class="pt-4 text-[#131318] font-bold">
+                152/1 Mohakhali Wireless Gate</h4>
+            </div>
+            <div class="w-96 h-56 bg-[#FDDD5F1A] mt-6 p-8 rounded-2xl ">
+              <img src="Images/Group 1171275321.png" class="w-12 h-12" alt="">
+              <h4 class="text-base pt-6 font-normal text-[#13131866]">Email :
+              </h4>
+              <h4 class="pt-4 text-[#131318] font-bold">hockeys@support.com </h4>
+            </div>
+          </div>
+          <form class="card-body grid lg:grid-cols-2">
+            <div class="form-control pl-16">
+              <label class="label">
+                <span class="label-text font-bold text-xl text-[#131318] ">Your Name</span>
+              </label>
+              <input type="email" placeholder="email"
+                class="input bg-[#13131808] lg:w-full w-[335px]  h-16 text-base font-normal text-[#1313184D]"
+                required />
+            </div>
+            <div class="form-control pl-16">
+              <label class="label">
+                <span class="label-text font-bold text-xl text-[#131318]">Your Email</span>
+              </label>
+              <input type="email" placeholder="email"
+                class="input bg-[#13131808] lg:w-full w-[335px]  h-16 text-base font-normal text-[#1313184D]"
+                required />
+            </div>
+            <div class="form-control pl-16">
+              <label class="label">
+                <span class="label-text font-bold text-xl text-[#131318]">Subject</span>
+              </label>
+              <input type="email" placeholder="email"
+                class="input bg-[#13131808] lg:w-full w-[335px]  h-16 text-base font-normal text-[#1313184D]"
+                required />
+            </div>
+            <div class="form-control pl-16">
+              <label class="label">
+                <span class="label-text font-bold text-xl text-[#131318]">Phone Number</span>
+              </label>
+              <input type="email" placeholder="email"
+                class="input bg-[#13131808] lg:w-full w-[335px]  h-16 text-base font-normal text-[#1313184D]"
+                required />
+            </div>
+            <div class="form-control pl-16">
+              <label class="label">
+                <span class="label-text font-bold lg:text-left text-xl text-[#131318]">Message</span>
+              </label>
+              <textarea class="textarea bg-[#13131808] lg:w-[700px] w-96 h-96 "
+                placeholder="Write your message"></textarea>
+            </div>
+            <br>
+
+            <div class="form-control mt-6 pl-16">
+              <button class="py-4  rounded-xl bg-[#FF4240] text-[#FFFFFF] lg:w-[700px]  w-[375px] ">Send
+                Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="socal-media-section">
+      <div class="container">
+        <div class="section-title-part py-8">
+          <h1 class="text-center text-[ #131318] font-extrabold text-4xl pb-6">Social Media</h1>
+          <ul class="flex items-center justify-center gap-9 my-6">
+            <img class="w-64" src="Images/Social.png" alt="">
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-[#131318] py-24">
+    <div class="container m-auto">
+      <footer class="footer p-10  text-base-content">
+        <nav class="mx-auto">
+          <header
+            class="footer-title text-2xl block items-center justify-center text-[#FFF] font-bold pb-6  lg:text-left text-center">
+            Get In Touch</header>
+          <p class="text-base text-[#FFFFFF99] font-medium lg:w-[346px] pb-6 lg:text-left ">If you’d like to get in
+            touch with me, you can simply continue this conversation. I’m here to help answer your questions, </p>
+          <a
+            class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center"><i
+              class="fa-solid fa-envelope text-[#FF4240] "></i> hockeys@support.com</a>
+          <a
+            class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center"><i
+              class="fa-solid fa-phone text-[#FF4240]"> </i> (+62) 123-321-543</a>
+        </nav>
+        <div class="flex  justify-between mx-auto gap-40">
+          <nav class="mx-auto">
+            <header class="footer-title text-2xl text-[#FFF] font-bold pb-6 lg:text-left text-center">Company</header>
+            <a
+              class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">About
+              us</a>
+            <a
+              class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">Leadership</a>
+            <a
+              class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">Careers</a>
+            <a
+              class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">areers
+              News & Article</a>
+            <a
+              class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">Legal
+              Notice</a>
+          </nav>
+          <nav class="mx-auto">
+            <header class="footer-title text-2xl text-[#FFF] font-bold pb-6 lg:text-left text-center">Support</header>
+            <a
+              class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">Help
+              Center</a>
+            <a
+              class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">FAQ</a>
+            <a
+              class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">Ticket
+              Support</a>
+            <a
+              class="link link-hover block items-center justify-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">Contact
+              Us</a>
+          </nav>
+        </div>
+        <nav class="block items-center justify-center m-auto">
+          <header
+            class="footer-title text-2xl block items-center justify-center text-[#FFF] font-bold pb-6  lg:text-left text-center">
+            Services</header>
+          <a
+            class="link link-hover block justify-center items-center text-base text-[#FFFFFF99]  font-medium pb-2 lg:text-left text-center">Academy</a>
+          <a
+            class="link link-hover block justify-center items-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">Group
+            Lesson</a>
+          <a
+            class="link link-hover block justify-center items-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">Private
+            Lesson</a>
+          <a
+            class="link link-hover block justify-center items-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">Hockeys
+            for kids</a>
+          <a
+            class="link link-hover block justify-center items-center text-base text-[#FFFFFF99] font-medium pb-2 lg:text-left text-center">Hockeys
+            for Adult</a>
+        </nav>
+      </footer>
+    </div>
+  </footer>
 </body>
 
 </html>
